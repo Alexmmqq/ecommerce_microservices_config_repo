@@ -32,7 +32,3 @@ management:
         include: refresh,health
 api:
   auth: http://AUTH-SERVICE/api/user
-jwt:
-  secret: mySecretKey
-  expireMs: 18000000
-  refrEshexpireMs: 18000000
